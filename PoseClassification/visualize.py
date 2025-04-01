@@ -62,13 +62,13 @@ class PoseClassificationVisualizer(object):
 
         # Draw the plot.
         img = self._plot_classification_history(output_width, output_height)
-        img.thumbnail(
-            (
-                int(output_width * self._plot_max_width),
-                int(output_height * self._plot_max_height),
-            ),
-            Image.ANTIALIAS,
-        )
+        # img.thumbnail(
+        #     (
+        #         int(output_width * self._plot_max_width),
+        #         int(output_height * self._plot_max_height),
+        #     ),
+        #     Image.ANTIALIAS,
+        # )
         output_img.paste(
             img,
             (

@@ -2,6 +2,7 @@
 fitness_poses_images_out/
 fitness_poses_csvs_out/
 fitness_poses_csvs_out.csv
+pushups-sample-out.mp4
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
